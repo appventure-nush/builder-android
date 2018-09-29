@@ -6,4 +6,3 @@ pipeline:
     repo: registry:5000/builder-android
     tags:
       - latest
-      - "${DRONE_COMMIT_SHA:0:8}"
